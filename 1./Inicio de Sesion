@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>SilkFlicks</title>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>SilkFlicks</h1>
+    </div>
+    <nav>
+      <ul>
+       
+      </ul>
+    </nav>
+    <div class="create-account-btn">
+      <a href="#">Crear Cuenta</a>
+    </div>
+  </header>
+
+  <section class="main-content">
+    <div class="login-container">
+      <h2>Iniciar sesión</h2>
+      <form>
+        <div class="input-group">
+          <input type="text" id="email" name="email" placeholder="Email o Número de Teléfono" required>
+        </div> 
+        <div class="input-group">
+          <input type="password" id="password" name="password" placeholder="Contraseña" required>
+          
+        </div>
+        <div class="remember-me">
+          <input type="checkbox" id="remember" name="remember">
+          <label for="remember">Recuérdame</label>
+        </div>
+        <button type="submit">Continuar</button>
+      </form>
+      <div class="help-links">
+        <a href="#">¿Olvidaste tu contraseña?</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">Preguntas frecuentes</a>
+      <a href="#">Centro de ayuda</a>
+      <a href="#">Términos de uso</a>
+      <a href="#">Dispositivos compatibles</a>
+    </div>
+  </footer>
+
+</body>
+</html>
